@@ -3,10 +3,34 @@ body {
     width: 100vw;
 }
 
+@font-face {
+    font-family: 'Pixel';
+    src: url(../fonts/Pixel.ttf);
+}
+
 [wm-flappy] {
     position: absolute;
     top: 10%;
     height: 60%;
     width: 50%;
     background: #92B6B1;
+    border: solid 1px #100B0030;
+    border-radius: 5px;
 } 
+
+.start {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    background-color: #100B00;
+    padding: 20px;
+    border: solid 2px #88818550;
+    border-radius: 0 10px;
+    font-family: 'Pixel';
+    font-size: 1.9em;
+    color: white;
+}
+
+.start:hover {
+    background-color: #FF4000;
+}
